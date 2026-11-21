@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [ParaBankSuite]">
+  <test thread-count="2" parallel="classes" name="BankingTests(failed)">
+    <classes>
+      <class name="com.banking.tests.AccountOverviewTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyAccountOverview"/>
+        </methods>
+      </class> <!-- com.banking.tests.AccountOverviewTest -->
+    </classes>
+  </test> <!-- BankingTests(failed) -->
+</suite> <!-- Failed suite [ParaBankSuite] -->

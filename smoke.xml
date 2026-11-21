@@ -1,0 +1,15 @@
+<suite name="SmokeSuite/">
+	<test name="SmokeTest/">
+		<groups>
+			<run>
+				<include name="smoke"/>
+				
+			</run>
+		</groups>
+		<classes>
+            <class name="com.banking.tests.LoginTest"/>
+            <class name="com.banking.tests.AccountOverviewTest"/>
+        </classes>
+	
+	</test>
+</suite>

@@ -1,0 +1,13 @@
+
+
+<suite name="ParaBankSuite" parallel="classes" thread-count="2">
+    <test name="BankingTests">
+    
+        <classes>
+        	
+            <class name="com.banking.tests.LoginTest"/>
+            <class name="com.banking.tests.AccountOverviewTest"/>
+        </classes>
+    </test>
+
+</suite>
