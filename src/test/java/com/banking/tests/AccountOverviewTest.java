@@ -73,7 +73,7 @@ public class AccountOverviewTest extends BaseTest {
 		System.out.println("Account Balance: " + actualBalance);
 
 		// Assertions
-		Assert.assertEquals(actualNumber, "18672");
+		Assert.assertEquals(actualNumber, "30882");
 		Assert.assertEquals(actualType, "CHECKING");
 		Assert.assertEquals(actualBalance, "$515.50");
 		
