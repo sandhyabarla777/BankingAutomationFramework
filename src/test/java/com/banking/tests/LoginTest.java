@@ -14,7 +14,8 @@ public class LoginTest extends BaseTest {
 	@Test(groups = {"smoke","regression"}, retryAnalyzer = RetryAnalyzer.class)
 	public void verifyLogin()
 	{
-		System.out.println("Thread ID: " + Thread.currentThread().getId());
+		//System.out.println("Thread ID: " + Thread.currentThread().getId());
+		System.out.println("branch");
 		LoginPage loginPage=new LoginPage(getDriver());
 		loginPage.loginOperation("sandhya_test_2028" ,"Test@123");
 		Assert.assertTrue(getDriver().getCurrentUrl().contains("overview"),"Login was not Successfull");
