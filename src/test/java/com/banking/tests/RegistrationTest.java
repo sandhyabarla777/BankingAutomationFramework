@@ -28,7 +28,7 @@ public class RegistrationTest extends BaseTest {
                 "500001",
                 "9876543212",
                 "12345678",
-                "sandhya_test_2028",
+                "sandhya_test_2029",
                 "Test@123"
                 
         );
